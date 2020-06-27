@@ -6,7 +6,9 @@ namespace fit.BL.Model
     /// <summary>
     /// Пользователь.
     /// </summary>
-    class User
+    
+    [Serializable]
+    public class User
     {
         #region свойства
         public string Name { get; }

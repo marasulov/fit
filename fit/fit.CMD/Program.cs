@@ -10,6 +10,7 @@ namespace fit.CMD
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Ввевдите имя");
         }
     }
 }
