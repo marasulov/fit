@@ -38,7 +38,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.prizePercentageTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.createMemberButton = new System.Windows.Forms.Button();
+            this.createPrizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -123,21 +123,22 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "-or-";
             // 
-            // createMemberButton
+            // createPrizeButton
             // 
-            this.createMemberButton.Location = new System.Drawing.Point(68, 273);
-            this.createMemberButton.Name = "createMemberButton";
-            this.createMemberButton.Size = new System.Drawing.Size(124, 23);
-            this.createMemberButton.TabIndex = 15;
-            this.createMemberButton.Text = "Create Prize";
-            this.createMemberButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Location = new System.Drawing.Point(68, 273);
+            this.createPrizeButton.Name = "createPrizeButton";
+            this.createPrizeButton.Size = new System.Drawing.Size(124, 23);
+            this.createPrizeButton.TabIndex = 15;
+            this.createPrizeButton.Text = "Create Prize";
+            this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(290, 346);
-            this.Controls.Add(this.createMemberButton);
+            this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.prizePercentageTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.prizeAmountTextBox);
@@ -167,6 +168,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox prizePercentageTextBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button createMemberButton;
+        private System.Windows.Forms.Button createPrizeButton;
     }
 }

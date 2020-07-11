@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.roundDropdownComboBox = new System.Windows.Forms.ComboBox();
+            this.selectTeamDropdown = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.createNewTeamLink = new System.Windows.Forms.LinkLabel();
             this.addTeamButton = new System.Windows.Forms.Button();
@@ -89,13 +89,13 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "0";
             // 
-            // roundDropdownComboBox
+            // selectTeamDropdown
             // 
-            this.roundDropdownComboBox.FormattingEnabled = true;
-            this.roundDropdownComboBox.Location = new System.Drawing.Point(15, 189);
-            this.roundDropdownComboBox.Name = "roundDropdownComboBox";
-            this.roundDropdownComboBox.Size = new System.Drawing.Size(172, 21);
-            this.roundDropdownComboBox.TabIndex = 6;
+            this.selectTeamDropdown.FormattingEnabled = true;
+            this.selectTeamDropdown.Location = new System.Drawing.Point(15, 189);
+            this.selectTeamDropdown.Name = "selectTeamDropdown";
+            this.selectTeamDropdown.Size = new System.Drawing.Size(172, 21);
+            this.selectTeamDropdown.TabIndex = 6;
             // 
             // label4
             // 
@@ -210,7 +210,7 @@
             this.Controls.Add(this.deleteSelectedPlayersButton);
             this.Controls.Add(this.addTeamButton);
             this.Controls.Add(this.createNewTeamLink);
-            this.Controls.Add(this.roundDropdownComboBox);
+            this.Controls.Add(this.selectTeamDropdown);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -233,7 +233,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox roundDropdownComboBox;
+        private System.Windows.Forms.ComboBox selectTeamDropdown;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel createNewTeamLink;
         private System.Windows.Forms.Button addTeamButton;
